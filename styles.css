@@ -8,6 +8,11 @@ body {
   line-height: 1.6;
 }
 
+img {
+  image-orientation: from-image;
+}
+
+
 /* ---- Navbar ---- */
 .navbar {
   width: 100%;
@@ -64,9 +69,10 @@ body {
 .profile-pic {
   width: 180px;
   height: 180px;
-  border-radius: 4px;
   object-fit: cover;
+  display: block;
 }
+
 
 .intro-text h1 {
   margin: 0;
