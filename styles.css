@@ -185,43 +185,6 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.social-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  max-width: 200px;
-  margin: 0 auto;
-}
-
-.social-btn {
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 10px 14px;
-  border-radius: 8px;
-  text-align: center;
-  border: 1px solid #ccc;
-  transition: 0.2s ease;
-  color: #111;
-  background: #f7f8fc;
-}
-
-.social-btn:hover {
-  background: #e1e5f0;
-  transform: translateY(-2px);
-}
-
-/* Optional coloring */
-.linkedin {
-  border-color: #0077b5;
-}
-.substack {
-  border-color: #ff6719;
-}
-.email {
-  border-color: #555;
-}
-
 .about-right {
   flex: 2;
 }
