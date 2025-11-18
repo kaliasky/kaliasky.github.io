@@ -250,3 +250,56 @@ a:hover {
   }
 }
 
+/* ---- ICON BUTTONS ---- */
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  color: #333;
+  background: white;
+  transition: 0.2s ease;
+}
+
+.social-btn:hover {
+  background: #f2f2f2;
+  transform: translateY(-2px);
+}
+
+/* Small square icons */
+.icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* LinkedIn icon */
+.linkedin-icon {
+  background-image: url("https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg");
+}
+
+/* Substack icon */
+.substack-icon {
+  background-image: url("https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/substack.svg");
+}
+
+/* Email icon */
+.email-icon {
+  background-image: url("https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/maildotru.svg");
+}
+
+
